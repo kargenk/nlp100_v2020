@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 '''
-28. MediaWikiマークアップの除去
-27の処理に加えて，テンプレートの値からMediaWikiマークアップを可能な限り除去し，
-国の基本情報を整形せよ．
+29. 国旗画像のURLを取得するPermalink
+テンプレートの内容を利用し，国旗画像のURLを取得せよ．
+（ヒント: MediaWiki APIのimageinfoを呼び出して，ファイル参照をURLに変換すればよい）
 '''
 
 import re
